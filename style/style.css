@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    position: relative;
+    height: 100vh;
+}
+#background{
+    background-image: url(../img/HERO-BACKGROUND.jpg);
+    background-size: 100%;
+    width: 100%;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    height: 100vh;
+    color: white;
+}
+#background > div{
+    display: flex;
+    flex-direction: row;
+}
+#background > div .cima{
+    margin: 50px 200px;
+    line-height: 50px;
+    font-weight: bold;
+
+}
+#background > div .cima:last-child{
+    margin-left: 100px;
+    
+}
+#background > div .cima ul li{
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+#background > div .cima ul li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #FFDD33;
+}
+#background h1{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+#background p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#background section{
+    background-image: url(../img/macbook\ mockup.svg);
+    background-size: 100%;
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    background-repeat: no-repeat;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+    margin-top: 70px;
+}
+
+
+
+#section1 #logos{
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+
+#pqnos{
+    background-color: #FBFCFE;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 100px;
+}
+#pqnos h1{
+    font-size: 64px;
+
+}
+#pqnos p{
+    margin-top: 20px;
+    color: #7E92AC;
+}
