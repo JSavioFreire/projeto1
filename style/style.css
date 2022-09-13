@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 header{
     position: relative;
@@ -143,9 +144,6 @@ header{
     width: 80%;
     margin: auto;
 }
-#beneficios > div:last-child{
-    
-}
 #beneficios > div >img{
     width: 80%;
     box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.341);
@@ -179,13 +177,14 @@ header{
     margin: 20px 0;   
 }
 #depoimentos #flex{
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    margin:auto;
     display: flex;
 }
 #depoimentos #flex > div{
     width: 30%;
-    margin: 0 2%;
+    min-width: 400px;
+    margin: 2%;
     background-color: white;
     box-shadow: 1px 1px 30px 5px rgba(0, 0, 0, 0.153);
     padding: 50px 20px;
